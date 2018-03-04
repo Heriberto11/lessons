@@ -1,0 +1,4 @@
+50000 juan
+80000 pedro
+20000 maria
+100000 lola
