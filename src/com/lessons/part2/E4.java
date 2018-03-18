@@ -3,23 +3,10 @@ package com.lessons.part2;
 public class E4 {
     public static void main(String[] args) {
 
-        int number=4;
-        for (int i=0;i<=number;i++) {
-            System.out.println("******************");
-        }
-        System.out.println("        *");
-        System.out.println("      *");
-        System.out.println("    *");
-        System.out.println(" *");
-        System.out.println("*************************");
-        System.out.println(" *");
-        System.out.println("    *");
-        System.out.println("      *");
-        System.out.println("        *");
-
-
-    }
-}
+        int length = 5;
+        for (int i = 1; i <= length; i++)
+            System.out.print("*");
+    }}
 
 
 /*
