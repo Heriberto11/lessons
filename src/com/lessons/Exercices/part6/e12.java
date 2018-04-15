@@ -9,6 +9,7 @@ se obtendrá el número 1, independientemente del entero inicial. Por ejemplo, c
 será:26 13  40  20 10  5 16  8  4  2  1*/
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("enter the number:");
         int number = scanner.nextInt();
         for (int i = 0; i <=100; i++) {
             if (number % 2 == 0) {
