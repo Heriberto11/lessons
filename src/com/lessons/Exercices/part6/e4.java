@@ -14,9 +14,9 @@ public class e4 {
         System.out.println("Entre el divisor: " +
                 "");
         int divisor= scanner.nextInt();
-        int i;
-        for (i = 1; i <= number; i++) number = number / divisor;
-        System.out.println(i+" divisiones necesarias");
-
+        for (int i = 1; i <= number; i++) {
+            number = number / divisor;
+            System.out.println(i + " divisiones necesarias");
+        }
     }
 }
